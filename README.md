@@ -12,9 +12,8 @@ Imagine we're working together on this todo list feature (in Vue). Our user feed
 4. Extra credit: Search the todo list
 
 ## Submission instructions
-* Fork the project at: https://githubbox.com/Phamily/vue-todo-pwa
-* Send us the completed CodeSandbox link.
-* Send us 3-5 minute screencast demoing the new features and talking through the major parts of the code. Feel free to use any screencasting software. [Vidyard](https://www.vidyard.com/) is decent if you need a recommendation.
+* Fork the project on CodeSandbox at: https://githubbox.com/Phamily/vue-todo-pwa
+* Send us the completed CodeSandbox link, along with a 3-5 minute screencast demoing the new features and talking through the major parts of the code. Feel free to use any screencasting software. [Vidyard](https://www.vidyard.com/) is decent if you need a recommendation.
 
 ## Guidelines
 * We expect spending between 2-6 hrs on the project, depending upon your familiarity with the technologies involved. We recommend timeboxing and seeing how much you can do within that time.
