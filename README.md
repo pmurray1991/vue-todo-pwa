@@ -1,3 +1,45 @@
+# Phamily Software Engineering Exercise
+
+At Phamily, a lot of our work involves building well-crafted software to delight our users. So instead of estoric puzzles and brainteasers, we like to get real and simulate building some real features together.
+
+## Challenge
+
+Imagine we're working together on this todo list feature (in Vue). Our user feedback indicates that due dates are important to manage things better. Please add the following enhancements to the todo list:
+
+1. Set a due
+2. Sort by due date
+3. Group list by due date, e.g. Overdue, Today, Tomorrow, etc.
+4. Extra credit: Search the todo list
+
+## Submission instructions
+* Fork the project at: https://githubbox.com/Phamily/vue-todo-pwa
+* Send us the completed CodeSandbox link.
+* Send us 3-5 minute screencast demoing the new features and talking through the major parts of the code. Feel free to use any screencasting software. [Vidyard](https://www.vidyard.com/) is decent if you need a recommendation.
+
+## Guidelines
+* We expect spending between 2-6 hrs on the project, depending upon your familiarity with the technologies involved. We recommend timeboxing and seeing how much you can do within that time.
+* It's okay if you're not able to finish all the features. We prefer fewer things done well over everything done, but not well.
+* Feel free to use your intuition and judgement on time-scope-quality tradeoffs related to the features and implementation details.
+* Feel free to use either the Vuex or the Vue Composition API version.
+* Keep code clean. Make things look nice. Have fun with it!
+## What we'll be evaluating
+* Clean working code
+* Architectural thinking
+* Product craftsmanship
+* Clear communication
+
+Good luck!
+
+___
+
+<i><pre>
+
+Original project README below
+
+</pre></i>
+
+___
+
 # vue-todo-pwa
 
 This project is a simple Todo [PWA] (Progressive Web App) based on the Vuex [TodoMVC] example.<br>
