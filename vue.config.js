@@ -5,4 +5,7 @@ module.exports = {
       short_name: "vue-todo",
     },
   },
+  configureWebpack: {
+    devtool: 'source-map'
+  }
 };

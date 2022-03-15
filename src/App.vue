@@ -1,5 +1,5 @@
 <template>
-  <main class="container px-2">
+  <main class="container-md px-2">
     <router-view />
   </main>
   <Footer />

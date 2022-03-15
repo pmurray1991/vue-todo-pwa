@@ -17,6 +17,15 @@
       @keyup.esc="cancelEdit"
       @blur="doneEdit"
     />
+    <input
+        class="form-control form-control-plaintext p-1"
+        :class="{ 'dueDate': todo.dueDate }"
+        type="date"
+        :value="todo.dueDate"
+        @keyup.enter="doneEditDate"
+        @keyup.esc="cancelEdit"
+
+    />
     <button
       type="button"
       class="btn-close btn-sm ms-2"
@@ -38,8 +47,8 @@ export default {
     const store = useStore();
     const toggleTodo = (todo) => store.dispatch("toggleTodo", todo);
     const editTodo = (todo) => store.dispatch("editTodo", todo);
+    const editDateTodo = (todo) => store.dispatch("editTodo", todo);
     const removeTodo = (todo) => store.dispatch("removeTodo", todo);
-
     // methods
     function doneEdit(e) {
       const value = e.target.value.trim();
@@ -53,7 +62,18 @@ export default {
         });
       }
     }
-
+    function doneEditDate(e) {
+      const value = e.target.value.trim();
+      const todo = this.todo;
+      if (!value) {
+        removeTodo(todo);
+      } else {
+        editDateTodo({
+          todo,
+          value,
+        });
+      }
+    }
     function cancelEdit(e) {
       e.target.blur();
     }
@@ -64,6 +84,7 @@ export default {
       removeTodo,
       doneEdit,
       cancelEdit,
+      doneEditDate
     };
   },
 };

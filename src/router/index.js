@@ -17,7 +17,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to) => {
-  const params = ["all", "active", "completed"];
+  const params = ["all", "active", "completed","date"];
   if (params.every((param) => param !== to.params.filter)) return "/all";
 });
 
