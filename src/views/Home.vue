@@ -57,15 +57,6 @@
         </button>
       </div>
 
-      <!--        <div class="dropdown">-->
-      <!--          <button class="btn dropdown-toggle" type="button" id="GroupDate" data-bs-toggle="dropdown" aria-expanded="false">Group by</button>-->
-      <!--          <ul class="dropdown-menu" aria-labelledby="GroupDate">-->
-      <!--            <li v-for="(val,key) in dueDateGroups" :key="key">-->
-      <!--              <a class="dropdown-item">{{val}}</a>-->
-      <!--            </li>-->
-      <!--          </ul>-->
-      <!--        </div>-->
-
       <nav class="nav">
         <ul class="nav">
           <li class="nav-item" v-for="(val, key) in filters" :key="key">
@@ -106,12 +97,6 @@ const filters = {
   active: (todos) => todos.filter((todo) => !todo.done),
   completed: (todos) => todos.filter((todo) => todo.done)
 };
-
-// const myIcons= {
-//   none: "sort",
-//   asc: "sort-up",
-//   desc: "sort-down"
-// };
 
 export default {
   name: "Home",
